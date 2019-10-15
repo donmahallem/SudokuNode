@@ -1,5 +1,5 @@
 /*!
- * Source https://github.com/donmahallem/TrapezeApiTypes
+ * Source https://github.com/donmahallem/SudokuNode
  */
 
 export type ValidCoordinate = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;

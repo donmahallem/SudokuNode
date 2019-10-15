@@ -1,5 +1,5 @@
 /*!
- * Source https://github.com/donmahallem/TrapezeApiTypes
+ * Source https://github.com/donmahallem/SudokuNode
  */
 
 import { SudokuField, ValidValue } from "./sudoku-field";

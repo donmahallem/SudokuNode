@@ -1,5 +1,5 @@
 /*!
- * Source https://github.com/donmahallem/TrapezeApiTypes
+ * Source https://github.com/donmahallem/SudokuNode
  */
 
 describe("setup", () => {
