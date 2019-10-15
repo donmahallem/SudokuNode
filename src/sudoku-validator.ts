@@ -1,24 +1,28 @@
+/*!
+ * Source https://github.com/donmahallem/TrapezeApiTypes
+ */
+
 import { SudokuField, ValidValue } from "./sudoku-field";
 
-export interface SudokuValidatorResultError {
+export interface ISudokuValidatorResultError {
     column: number;
     row: number;
 }
 
-export interface SudokuValidatorResult {
+export interface ISudokuValidatorResult {
     valid: boolean;
-    errors?: SudokuValidatorResultError[];
+    errors?: ISudokuValidatorResultError[];
 }
 export class SudokuValidator {
 
-    public static validate(field: SudokuField): SudokuValidatorResult {
+    public static validate(field: SudokuField): ISudokuValidatorResult {
         return {
-            valid: false
+            valid: false,
         };
     }
 
-    public static checkLines(field: SudokuField, y: number): SudokuValidatorResultError[] {
-        const errors: SudokuValidatorResultError[] = [];
+    public static checkLines(field: SudokuField, y: number): ISudokuValidatorResultError[] {
+        const errors: ISudokuValidatorResultError[] = [];
         let column: ValidValue[] = [];
         let row: ValidValue[] = [];
         for (let i = 0; i < 9; i++) {
