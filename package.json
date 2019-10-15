@@ -1,7 +1,7 @@
 {
     "name": "@donmahallem/sudoku",
     "version": "0.0.1",
-    "description": "Api Types and helper for TrapezeApi",
+    "description": "Sudoku Solver and Generator Library",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "private": false,
