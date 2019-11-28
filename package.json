@@ -100,7 +100,7 @@
         "all": true
     },
     "dependencies": {
-        "jsonschema": "~1.2.4"
+        "jsonschema": "~1.2.5"
     },
     "files": [
         "dist/*",
