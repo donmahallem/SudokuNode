@@ -63,7 +63,7 @@
         "@types/node": "~13.1.8",
         "@types/sinon": "~7.5.1",
         "chai": "~4.2.0",
-        "highlight.js": "~9.17.1",
+        "highlight.js": "~9.18.0",
         "mocha": "~7.0.0",
         "nodemon": "~2.0.2",
         "nyc": "~15.0.0",
